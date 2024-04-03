@@ -1,0 +1,38 @@
+#Info {
+  text-align: center;
+  color: white;
+  background-color: rgb(9, 149, 230);
+  padding: 20px;
+  margin-top: 30px;
+}
+
+#Info .contenedor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#Info .Proveedor a{
+  text-decoration: none;
+  color: white;
+}
+
+.Proveedor {
+  margin: 20px;
+}
+
+.Proveedor img {
+  width: 180px;
+  height: 180px;
+  border-radius: 150px;
+  border: 7px solid white;
+  transition: opacity 0.3s;
+}
+
+.Proveedor img:hover {
+  opacity: 0.4;
+}
+
+#Info h4 {
+  margin: 6px;
+}

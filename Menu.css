@@ -1,0 +1,44 @@
+#menu-bar{
+    display: none;
+}
+
+header label{
+    float: right;
+    font-size: 28px;
+    cursor: pointer;
+    margin: 6px 0;
+}
+
+.Menu{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 20%;
+    height: 15vh;
+    background: rgb(9, 149, 230);
+    transition: all 0.5s;
+    transform: translateX(400%);
+}
+
+.Menu a{
+    display: block;
+    color: white;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px; 
+    border-bottom: 2px solid rgb(0, 225, 255);
+}
+
+.Menu a:hover{
+    display: block;
+    color: white;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 2px solid white;
+    color: black;
+}
+
+#menu-bar:checked~ .Menu{
+    transform: translateX(0%);
+}
